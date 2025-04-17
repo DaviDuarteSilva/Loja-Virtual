@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual - Vitrine</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Loja Virtual</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.php">Produtos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Entrar</a></li>
+                    <li class="nav-item"><a class="nav-link" href="register.html">Cadastrar</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Carrossel -->
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/Banner para Site Nova coleção de verão loja de acessórios elegante rosa e bege.png" class="d-block w-100" alt="Banner Promoção">
+                <div class="carousel-caption d-none d-md-block"> 
+                    <a href="#" class="button btn">SAIBA MAIS</a>
+                </div>
+
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Produtos -->
+    <section class="container my-5">
+        <h2 class="text-center mb-4">Nossos Produtos</h2>
+        <div class="row">
+            <!-- Produto 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="images/Anel-Chains-em-Ouro-Amarelo-18k-com-Diamantes-2702_1_set.webp" class="card-img-top" alt="Produto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 1</h5>
+                        <p class="card-text">Ouro 18k, que é o mais indicado para o uso na joalheria em função de sua durabilidade e brilho. Sua composição contém 75% de ouro puro mais 25% de ligas especiais.</p>
+                        <p class="card-text"><strong>R$ 599.99</strong></p>
+                        <a href="#" class="btn btn-primary"><i class="fas fa-cart-plus"></i> Adicionar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Produto 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="images/Brinco-Argola-Chains-em-Ouro-Amarelo-18k-1813_1_set.webp" class="card-img-top" alt="Produto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 2</h5>
+                        <p class="card-text">ouro 18k, que é o mais indicado para o uso na joalheria em função de sua durabilidade e brilho. Sua composição contém 75% de ouro puro mais 25% de ligas especiais.</p>
+                        <p class="card-text"><strong>R$ 4999,99</strong></p>
+                        <a href="#" class="btn btn-primary"><i class="fas fa-cart-plus"></i> Adicionar</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Produto 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card product-card">
+                    <img src="images/Pulseira-Chains-em-Ouro-Amarelo-18k-com-Diamantes-2717_1_set.webp" class="card-img-top" alt="Produto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Produto 3</h5>
+                        <p class="card-text"> ouro 18k, que é o mais indicado para o uso na joalheria em função de sua durabilidade e brilho. Sua composição contém 75% de ouro puro mais 25% de ligas especiais.</p>
+                        <p class="card-text"><strong>R$ 16.999,99</strong></p>
+                        <a href="#" class="btn btn-primary"><i class="fas fa-cart-plus"></i> Adicionar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>© 2025 Loja Virtual. Todos os direitos reservados.</p>
+        <p><a href="#" class="text-white">Contato</a> | <a href="#" class="text-white">Sobre</a></p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
