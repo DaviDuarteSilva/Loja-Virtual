@@ -7,48 +7,28 @@ Tecnologias Utilizadas
 Backend:
 PHP 8.2.12
 MySQL (banco de dados relacional)
+
 Frontend:
 Bootstrap 5.3.2 (via CDN)
 Font Awesome 6.4.2 (via CDN, para ícones)
 CSS personalizado (styles.css)
+
 Servidor:
 Apache (via XAMPP)
+
 Ferramentas:
 XAMPP (para ambiente local)
 phpMyAdmin (para gerenciamento do banco de dados)
-Funcionalidades
+
 Autenticação de Usuários:
 Cadastro de usuários com nome, email e senha (senha criptografada com password_hash).
 Login com validação de credenciais.
 Gerenciamento de sessões (usuário logado vê "Bem-vindo, [username]" na navbar).
 Logout com destruição de sessão.
+
 Vitrine de Produtos:
 Página inicial (index.php) com um carrossel de banners e uma seção estática de produtos (com imagens, descrições e preços).
+
 Interface:
 Navbar dinâmica que muda com base no status de login.
 Design responsivo com Bootstrap.
-Estrutura de Arquivos
-A estrutura do projeto em C:\xampp\htdocs\loja-virtual é a seguinte:
-
-text
-
-Copiar
-loja-virtual/
-├── css/
-│   └── styles.css          # Estilos personalizados
-├── images/                 # Pasta para imagens (não incluída no Git, adicionar manualmente)
-│   ├── Banner para Site Nova coleção de verão loja de acessórios elegante rosa e bege.png
-│   ├── Anel-Chains-em-Ouro-Amarelo-18k-com-Diamantes-2702_1_set.webp
-│   ├── Brinco-Argola-Chains-em-Ouro-Amarelo-18k-1813_1_set.webp
-│   └── Pulseira-Chains-em-Ouro-Amarelo-18k-com-Diamantes-2717_1_set.webp
-├── config.php              # Configuração da conexão com o banco de dados e início da sessão
-├── dashboard.php           # Redireciona para index.php após login
-├── index.php               # Página principal com navbar, carrossel e vitrine de produtos
-├── login.html              # Página de login
-├── logout.php              # Script para encerrar a sessão
-├── process_login.php       # Processa o login do usuário
-├── process_register.php    # Processa o cadastro do usuário
-├── products.php            # Placeholder para página de produtos
-├── profile.php             # Placeholder para página de perfil do usuário
-├── register.html           # Página de cadastro
-└── test_connection.php     # Script para testar a conexão com o banco de dados
